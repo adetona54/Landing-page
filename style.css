@@ -1,0 +1,301 @@
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.body {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.paragragh p {
+  width: 550px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  font-family: sans-serif;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.paragraghs h1 {
+  font-family: sans-serif;
+}
+
+.paragragh h1 {
+  font-family: sans-serif;
+}
+
+.words {
+  width: 500px;
+}
+
+.icon {
+  width: 500px;
+  height: auto;
+}
+
+.paragraghs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.paragragh {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background-color: hsl(240, 75%, 98%);
+  padding: 24px;
+  padding-bottom: 84px;
+}
+
+.word {
+  margin-left: 64px;
+}
+
+.paragragh a {
+  margin-bottom: 44px;
+}
+
+.word a:link {
+  color: hsl(170, 45%, 43%);
+}
+
+.word a:visited {
+  color: hsl(170, 45%, 43%);
+}
+
+.word a:hover {
+  color: hsl(170, 81%, 25%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.word a:active {
+  color: hsl(170, 45%, 43%);
+  text-decoration: underline;
+  cursor: grab;
+}
+
+.body {
+  margin-bottom: 40px;
+}
+
+.paragragh a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.avats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avats p {
+  margin: 0;
+}
+
+.avats p:first-child {
+  font-weight: bold;
+}
+
+.block p {
+  width: 300px;
+}
+
+.para {
+  display: inline-block;
+}
+
+.block {
+  background-color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
+
+#email {
+  padding: 6px;
+}
+
+#button {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 150px;
+  height: 32px;
+  border-radius: 3px;
+  color: white;
+}
+
+#button:hover {
+  background-color: hsl(224, 97%, 72%);
+}
+
+form {
+  display: flex;
+  gap: 12px;
+}
+
+.first-footer {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  align-items: center;
+  padding: 44px;
+  justify-content: space-between;
+}
+
+.access {
+  color: white;
+  width: 480px;
+}
+
+.email {
+  padding: 8px;
+  background-color: white;
+  width: 320px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 150px;
+  height: 32px;
+  border-radius: 3px;
+  margin-left: 12px;
+  color: white;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.button:hover {
+  background-color: hsl(224, 97%, 72%);
+}
+
+.second-footer {
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+}
+
+.phone {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.second-footer p {
+  color: hsl(0, 0%, 75%);
+}
+
+.exam {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about {
+  margin: 0;
+}
+
+.contact {
+  margin: 0;
+}
+
+.all {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about a:link {
+  color: hsl(0, 0%, 75%);
+}
+
+.about a:visited {
+  color: hsl(0, 0%, 75%);
+}
+
+.about a:hover {
+  color: hsl(224, 93%, 58%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about a:active {
+  color: hsl(224, 93%, 58%);
+  text-decoration: underline;
+  cursor: grab;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact a:link {
+  color: hsl(0, 0%, 75%);
+}
+
+.contact a:visited {
+  color: hsl(0, 0%, 75%);
+}
+
+.contact a:hover {
+  color: hsl(224, 93%, 58%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact a:active {
+  color: hsl(224, 93%, 58%);
+  text-decoration: underline;
+  cursor: grab;
+}
